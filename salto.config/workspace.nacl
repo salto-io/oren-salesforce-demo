@@ -1,0 +1,5 @@
+workspace {
+  uid = "5241810d-df98-4b10-8006-cecc4e9a6448"
+  name = "Salto-Salesforce-Demo"
+  staleStateThresholdMinutes = undefined
+}
