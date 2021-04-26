@@ -64,7 +64,7 @@ type salesforce.Opportunity {
     apiName = "Opportunity.Health__c"
     label = "Health"
     _required = false
-    formula = "IF( Probability>0.5, IF( Amount > 50000, \"Good\", \"Fair\"), \"Poor\")"
+    formula = "IF( Probability>0.5, IF( Amount > 100000, \"Good\", \"Fair\"), \"Poor\")"
     createable = false
     updateable = false
     unique = false
