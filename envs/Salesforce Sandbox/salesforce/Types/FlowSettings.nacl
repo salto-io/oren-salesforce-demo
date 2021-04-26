@@ -1,0 +1,75 @@
+settings salesforce.FlowSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean doesFormulaEnforceDataAccess {
+    _required = false
+  }
+  boolean doesFormulaGenerateHtmlOutput {
+    _required = false
+  }
+  boolean enableFlowBREncodedFixEnabled {
+    _required = false
+  }
+  boolean enableFlowDeployAsActiveEnabled {
+    _required = false
+  }
+  boolean enableFlowFieldFilterEnabled {
+    _required = false
+  }
+  boolean enableFlowFormulasFixEnabled {
+    _required = false
+  }
+  boolean enableFlowInterviewSharingEnabled {
+    _required = false
+  }
+  boolean enableFlowNullPreviousValueFix {
+    _required = false
+  }
+  boolean enableFlowPauseEnabled {
+    _required = false
+  }
+  boolean enableFlowUseApexExceptionEmail {
+    _required = false
+  }
+  boolean enableInvocableFlowFixEnabled {
+    _required = false
+  }
+  boolean enableLightningRuntimeEnabled {
+    _required = false
+  }
+  boolean isAccessToInvokedApexRequired {
+    _required = false
+  }
+  boolean isApexPluginAccessModifierRespected {
+    _required = false
+  }
+  boolean isEnhancedFlowListViewVisible {
+    _required = false
+  }
+  boolean isManageFlowRequiredForAutomationCharts {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "FlowSettings"
+}

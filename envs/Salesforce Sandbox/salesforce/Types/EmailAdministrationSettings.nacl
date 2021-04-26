@@ -1,0 +1,87 @@
+settings salesforce.EmailAdministrationSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableComplianceBcc {
+    _required = false
+  }
+  boolean enableEmailConsentManagement {
+    _required = false
+  }
+  boolean enableEmailSenderIdCompliance {
+    _required = false
+  }
+  boolean enableEmailSpfCompliance {
+    _required = false
+  }
+  boolean enableEmailToSalesforce {
+    _required = false
+  }
+  boolean enableEmailWorkflowApproval {
+    _required = false
+  }
+  boolean enableEnhancedEmailEnabled {
+    _required = false
+  }
+  boolean enableHandleBouncedEmails {
+    _required = false
+  }
+  boolean enableHtmlEmail {
+    _required = false
+  }
+  boolean enableListEmailLogActivities {
+    _required = false
+  }
+  boolean enableResendBouncedEmails {
+    _required = false
+  }
+  boolean enableRestrictTlsToDomains {
+    _required = false
+  }
+  boolean enableSendThroughGmailPref {
+    _required = false
+  }
+  boolean enableSendViaExchangePref {
+    _required = false
+  }
+  boolean enableSendViaGmailPref {
+    _required = false
+  }
+  boolean enableSetMatchingEmailsOnBounce {
+    _required = false
+  }
+  boolean enableUseOrgFootersForExtTrans {
+    _required = false
+  }
+  boolean sendEmailsEvenWhenAutomationUpdatesSameRecord {
+    _required = false
+  }
+  boolean sendMassEmailNotification {
+    _required = false
+  }
+  boolean sendTextOnlySystemEmails {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "EmailAdministrationSettings"
+}

@@ -1,0 +1,42 @@
+type salesforce.MktDataLakeAttributes {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string creationType {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Bridge",
+        "Custom",
+        "Derived",
+        "Standard",
+        "System",
+      ]
+    }
+  }
+  string dataSource {
+    _required = false
+  }
+  string externalName {
+    _required = false
+  }
+  boolean isEnabled {
+    _required = false
+  }
+  string objectCategory {
+    _required = false
+  }
+  metadataType = "MktDataLakeAttributes"
+}

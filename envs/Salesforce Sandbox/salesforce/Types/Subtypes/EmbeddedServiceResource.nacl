@@ -1,0 +1,33 @@
+type salesforce.EmbeddedServiceResource {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string resource {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.StaticResource,
+    ]
+  }
+  string resourceType {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "ChatInvitation",
+        "SettingsFile",
+      ]
+    }
+  }
+  metadataType = "EmbeddedServiceResource"
+}

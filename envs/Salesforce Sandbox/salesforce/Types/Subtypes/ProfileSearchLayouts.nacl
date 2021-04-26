@@ -1,0 +1,23 @@
+type salesforce.ProfileSearchLayouts {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string fields {
+    _required = false
+  }
+  string profileName {
+    _required = false
+  }
+  metadataType = "ProfileSearchLayouts"
+}

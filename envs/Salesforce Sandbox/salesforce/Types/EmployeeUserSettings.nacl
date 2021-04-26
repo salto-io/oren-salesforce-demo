@@ -1,0 +1,39 @@
+settings salesforce.EmployeeUserSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string emailEncoding {
+    _required = false
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string permset {
+    _required = false
+  }
+  string profile {
+    _required = false
+  }
+  string usernameSuffix {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "EmployeeUserSettings"
+}

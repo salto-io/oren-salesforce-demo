@@ -1,0 +1,34 @@
+type salesforce.Lead {
+  salesforce.Picklist Role__c {
+    apiName = "Lead.Role__c"
+    label = "Role"
+    _required = false
+    valueSet = [
+      {
+        fullName = "IT"
+        default = false
+        label = "IT"
+      },
+      {
+        fullName = "Finance"
+        default = false
+        label = "Finance"
+      },
+      {
+        fullName = "Marketing"
+        default = false
+        label = "Marketing"
+      },
+      {
+        fullName = "Sales or Customer Success"
+        default = false
+        label = "Sales"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    sorted = false
+  }
+}

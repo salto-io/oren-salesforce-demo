@@ -1,0 +1,36 @@
+settings salesforce.PathAssistantSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean pathAssistantEnabled {
+    _required = false
+  }
+  boolean canOverrideAutoPathCollapseWithUserPref {
+    _required = false
+  }
+  boolean pathAssistantForOpportunityEnabled {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "PathAssistantSettings"
+}

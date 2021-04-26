@@ -1,0 +1,143 @@
+type salesforce.MLFilter {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string filterName {
+    _required = false
+  }
+  salesforce.MLFilter lhFilter {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.MLFilter,
+    ]
+  }
+  string lhPredictionField {
+    _required = false
+  }
+  string lhType {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Boolean",
+        "Comparison",
+        "Currency",
+        "Date",
+        "DateTime",
+        "Number",
+        "String",
+        "Supplier",
+        "Varchar",
+      ]
+    }
+  }
+  string lhUnit {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Days",
+        "Hours",
+        "Milliseconds",
+        "Minutes",
+        "Months",
+        "Seconds",
+        "Weeks",
+        "Years",
+      ]
+    }
+  }
+  string lhValue {
+    _required = false
+  }
+  string operation {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Add",
+        "And",
+        "Between",
+        "Concat",
+        "Contains",
+        "Divide",
+        "DoesNotContain",
+        "EndsWith",
+        "Equals",
+        "GreaterThan",
+        "GreaterThanOrEqual",
+        "In",
+        "IsNotNull",
+        "IsNull",
+        "LessThan",
+        "LessThanOrEqual",
+        "Multiply",
+        "Not",
+        "NotEquals",
+        "Or",
+        "StartsWith",
+        "Subtract",
+      ]
+    }
+  }
+  salesforce.MLFilter rhFilter {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.MLFilter,
+    ]
+  }
+  string rhPredictionField {
+    _required = false
+  }
+  string rhType {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Boolean",
+        "Comparison",
+        "Currency",
+        "Date",
+        "DateTime",
+        "Number",
+        "String",
+        "Supplier",
+        "Varchar",
+      ]
+    }
+  }
+  string rhUnit {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Days",
+        "Hours",
+        "Milliseconds",
+        "Minutes",
+        "Months",
+        "Seconds",
+        "Weeks",
+        "Years",
+      ]
+    }
+  }
+  string rhValue {
+    _required = false
+  }
+  number sortOrder {
+    _required = false
+  }
+  metadataType = "MLFilter"
+}

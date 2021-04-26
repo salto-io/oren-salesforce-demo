@@ -1,0 +1,171 @@
+settings salesforce.AnalyticsSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  boolean enableWaveReplication {
+    _required = false
+  }
+  boolean enableWaveSharingInheritance {
+    _required = false
+  }
+  boolean enableWaveTemplate {
+    _required = false
+  }
+  serviceid fullName {
+    _required = false
+  }
+  number maxHoursAppInProgress {
+    _required = false
+  }
+  boolean alwaysGenPreviews {
+    _required = false
+  }
+  boolean analyticsAdoptionMetadata {
+    _required = false
+  }
+  boolean canAccessAnalyticsViaAPI {
+    _required = false
+  }
+  boolean canAnnotateDashboards {
+    _required = false
+  }
+  boolean canEnableLiveMetrics {
+    _required = false
+  }
+  boolean canEnableSavedView {
+    _required = false
+  }
+  boolean canExploreDataConversationally {
+    _required = false
+  }
+  boolean canShareAppsWithCommunities {
+    _required = false
+  }
+  boolean canSubscribeDashboardWidgets {
+    _required = false
+  }
+  boolean canViewThumbnailAssets {
+    _required = false
+  }
+  boolean enableAnalyticsEncryption {
+    _required = false
+  }
+  boolean enableAnalyticsSharingEnable {
+    _required = false
+  }
+  boolean enableAutoCompleteCombo {
+    _required = false
+  }
+  boolean enableC360GlobalProfileData {
+    _required = false
+  }
+  boolean enableDashboardComponentSnapshot {
+    _required = false
+  }
+  boolean enableDashboardFlexiTable {
+    _required = false
+  }
+  boolean enableDashboardToPDFEnable {
+    _required = false
+  }
+  boolean enableDataBlending {
+    _required = false
+  }
+  boolean enableEmailReportsToPortalUsers {
+    _required = false
+  }
+  boolean enableFirebirdEditor {
+    _required = false
+  }
+  boolean enableFloatingReportHeaders {
+    _required = false
+  }
+  boolean enableInsights {
+    _required = false
+  }
+  boolean enableLightningReportBuilder {
+    _required = false
+  }
+  boolean enableLotusNotesImages {
+    _required = false
+  }
+  boolean enableMassEnableReportBuilder {
+    _required = false
+  }
+  boolean enableNewChartsEngine {
+    _required = false
+  }
+  boolean enableNullDimension {
+    _required = false
+  }
+  boolean enablePowerInsights {
+    _required = false
+  }
+  boolean enableQueryLiveConnectors {
+    _required = false
+  }
+  boolean enableRemoveFooterForRepDisplay {
+    _required = false
+  }
+  boolean enableRemoveFooterFromRepExp {
+    _required = false
+  }
+  boolean enableReportFieldToFieldPref {
+    _required = false
+  }
+  boolean enableReportNotificationsEnable {
+    _required = false
+  }
+  boolean enableReportUniqueRowCountPref {
+    _required = false
+  }
+  boolean enableS1AnalyticsEclairEnable {
+    _required = false
+  }
+  boolean enableSFXJoinedReportsEnable {
+    _required = false
+  }
+  boolean enableSmartDataDiscovery {
+    _required = false
+  }
+  boolean enableUseOldChartsLookAndFeel {
+    _required = false
+  }
+  boolean enableWaveRecordNavigation {
+    _required = false
+  }
+  boolean enableWaveTrendedDatasetCleanup {
+    _required = false
+  }
+  boolean inheritSharingForNonOpptyObjects {
+    _required = false
+  }
+  boolean inheritSharingForOpptyObject {
+    _required = false
+  }
+  boolean replaceBlankMeasuresWithNulls {
+    _required = false
+  }
+  boolean turnOnTimeZones {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "AnalyticsSettings"
+}

@@ -1,0 +1,59 @@
+type salesforce.Holidays {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string name {
+    _required = false
+  }
+  string description {
+    _required = false
+  }
+  string activityDate {
+    _required = false
+  }
+  string recurrenceStartDate {
+    _required = false
+  }
+  string recurrenceEndDate {
+    _required = false
+  }
+  string startTime {
+    _required = false
+  }
+  string endTime {
+    _required = false
+  }
+  string recurrenceType {
+    _required = false
+  }
+  string recurrenceInterval {
+    _required = false
+  }
+  string recurrenceDayOfWeek {
+    _required = false
+  }
+  string recurrenceDayOfMonth {
+    _required = false
+  }
+  string recurrenceInstance {
+    _required = false
+  }
+  string recurrenceMonthOfYear {
+    _required = false
+  }
+  string businessHours {
+    _required = false
+  }
+  metadataType = "Holidays"
+}

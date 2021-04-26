@@ -1,0 +1,44 @@
+type salesforce.FlowRecordFilter {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  "List<salesforce.FlowMetadataValue>" processMetadataValues {
+    _required = false
+  }
+  string field {
+    _required = false
+  }
+  salesforce.FlowElementReferenceOrValue value {
+    _required = false
+  }
+  string operator {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Contains",
+        "EndsWith",
+        "EqualTo",
+        "GreaterThan",
+        "GreaterThanOrEqualTo",
+        "IsNull",
+        "LessThan",
+        "LessThanOrEqualTo",
+        "NotEqualTo",
+        "StartsWith",
+      ]
+    }
+  }
+  metadataType = "FlowRecordFilter"
+}

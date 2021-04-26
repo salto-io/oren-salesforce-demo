@@ -1,0 +1,53 @@
+type salesforce.AIApplicationConfig {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string applicationId {
+    _required = false
+  }
+  string developerName {
+    _required = false
+  }
+  boolean insightReasonEnabled {
+    _required = false
+  }
+  string masterLabel {
+    _required = false
+  }
+  number rank {
+    _required = false
+  }
+  string scoringMode {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Batch",
+        "OnDemand",
+        "Streaming",
+      ]
+    }
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "aiapplicationconfig"
+  dirName = "aiApplicationConfigs"
+  metadataType = "AIApplicationConfig"
+}

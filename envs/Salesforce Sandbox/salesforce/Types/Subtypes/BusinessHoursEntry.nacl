@@ -1,0 +1,74 @@
+type salesforce.BusinessHoursEntry {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean active {
+    _required = false
+  }
+  boolean default {
+    _required = false
+  }
+  string fridayEndTime {
+    _required = false
+  }
+  string fridayStartTime {
+    _required = false
+  }
+  string mondayEndTime {
+    _required = false
+  }
+  string mondayStartTime {
+    _required = false
+  }
+  string name {
+    _required = false
+  }
+  string saturdayEndTime {
+    _required = false
+  }
+  string saturdayStartTime {
+    _required = false
+  }
+  string sundayEndTime {
+    _required = false
+  }
+  string sundayStartTime {
+    _required = false
+  }
+  string thursdayEndTime {
+    _required = false
+  }
+  string thursdayStartTime {
+    _required = false
+  }
+  string timeZoneId {
+    _required = false
+  }
+  string tuesdayEndTime {
+    _required = false
+  }
+  string tuesdayStartTime {
+    _required = false
+  }
+  string wednesdayEndTime {
+    _required = false
+  }
+  string wednesdayStartTime {
+    _required = false
+  }
+  metadataType = "BusinessHoursEntry"
+}

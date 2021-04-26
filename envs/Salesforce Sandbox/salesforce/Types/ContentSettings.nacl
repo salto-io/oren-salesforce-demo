@@ -1,0 +1,87 @@
+settings salesforce.ContentSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableChatterFileLink {
+    _required = false
+  }
+  boolean enableCMSC2CConnections {
+    _required = false
+  }
+  boolean enableContent {
+    _required = false
+  }
+  boolean enableContentAutoAssign {
+    _required = false
+  }
+  boolean enableContentDistForPortalUsers {
+    _required = false
+  }
+  boolean enableContentDistPwOptionsBit1 {
+    _required = false
+  }
+  boolean enableContentDistPwOptionsBit2 {
+    _required = false
+  }
+  boolean enableContentDistribution {
+    _required = false
+  }
+  boolean enableContentSupportMultiLanguage {
+    _required = false
+  }
+  boolean enableContentWorkspaceAccess {
+    _required = false
+  }
+  boolean enableDeleteFileInContentPacks {
+    _required = false
+  }
+  boolean enableFileShareSetByRecord {
+    _required = false
+  }
+  boolean enableFilesUsrShareNetRestricted {
+    _required = false
+  }
+  boolean enableJPGPreviews {
+    _required = false
+  }
+  boolean enableLibraryManagedFiles {
+    _required = false
+  }
+  boolean enableShowChatterFilesInContent {
+    _required = false
+  }
+  boolean enableSiteGuestUserToUploadFiles {
+    _required = false
+  }
+  boolean enableUploadFilesOnAttachments {
+    _required = false
+  }
+  boolean skipContentAssetTriggers {
+    _required = false
+  }
+  boolean skipContentAssetTriggersOnDeploy {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "ContentSettings"
+}

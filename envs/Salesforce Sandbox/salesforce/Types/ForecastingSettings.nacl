@@ -1,0 +1,42 @@
+settings salesforce.ForecastingSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean defaultToPersonalCurrency {
+    _required = false
+  }
+  boolean enableForecasts {
+    _required = false
+  }
+  "List<salesforce.ForecastingCategoryMapping>" forecastingCategoryMappings {
+    _required = false
+  }
+  salesforce.ForecastingDisplayedFamilySettings forecastingDisplayedFamilySettings {
+    _required = false
+  }
+  "List<salesforce.ForecastingTypeSettings>" forecastingTypeSettings {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "ForecastingSettings"
+}

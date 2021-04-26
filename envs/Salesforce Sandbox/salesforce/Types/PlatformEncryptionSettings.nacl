@@ -1,0 +1,45 @@
+settings salesforce.PlatformEncryptionSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean canEncryptManagedPackageFields {
+    _required = false
+  }
+  boolean isUseHighAssuranceKeysRequired {
+    _required = false
+  }
+  boolean isMEKForEncryptionRequired {
+    _required = false
+  }
+  boolean enableDeterministEncryption {
+    _required = false
+  }
+  boolean enableEncryptFieldHistory {
+    _required = false
+  }
+  boolean enableEventBusEncryption {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "PlatformEncryptionSettings"
+}

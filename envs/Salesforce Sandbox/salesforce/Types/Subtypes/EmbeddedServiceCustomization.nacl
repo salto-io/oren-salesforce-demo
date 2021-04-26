@@ -1,0 +1,26 @@
+type salesforce.EmbeddedServiceCustomization {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string customizationName {
+    _required = false
+  }
+  string description {
+    _required = false
+  }
+  salesforce.EmbeddedServiceResource embeddedServiceResources {
+    _required = false
+  }
+  metadataType = "EmbeddedServiceCustomization"
+}

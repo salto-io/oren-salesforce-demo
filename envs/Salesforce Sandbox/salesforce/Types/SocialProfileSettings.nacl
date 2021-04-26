@@ -1,0 +1,42 @@
+settings salesforce.SocialProfileSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean isFacebookSocialProfilesDisabled {
+    _required = false
+  }
+  boolean isLinkedInSocialProfilesDisabled {
+    _required = false
+  }
+  boolean isTwitterSocialProfilesDisabled {
+    _required = false
+  }
+  boolean isYouTubeSocialProfilesDisabled {
+    _required = false
+  }
+  boolean enableSocialProfiles {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "SocialProfileSettings"
+}

@@ -1,0 +1,81 @@
+settings salesforce.CommunitiesSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  boolean enableGuestRecordReassignOrgPref {
+    _required = false
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean canModerateAllFeedPosts {
+    _required = false
+  }
+  boolean canModerateInternalFeedPosts {
+    _required = false
+  }
+  boolean embeddedVisualforcePages {
+    _required = false
+  }
+  boolean enableCommunityWorkspaces {
+    _required = false
+  }
+  boolean enableCspContactVisibilityPref {
+    _required = false
+  }
+  boolean enableCspNotesOnAccConPref {
+    _required = false
+  }
+  boolean enableEnablePRM {
+    _required = false
+  }
+  boolean enableExternalAccHierPref {
+    _required = false
+  }
+  boolean enableInviteChatterGuestEnabled {
+    _required = false
+  }
+  boolean enableNetPortalUserReportOpts {
+    _required = false
+  }
+  boolean enableNetworksEnabled {
+    _required = false
+  }
+  boolean enableOotbProfExtUserOpsEnable {
+    _required = false
+  }
+  boolean enablePowerCustomerCaseStatus {
+    _required = false
+  }
+  boolean enablePRMAccRelPref {
+    _required = false
+  }
+  boolean enableRelaxPartnerAccountFieldPref {
+    _required = false
+  }
+  boolean enableUnsupportedBrowserModalPref {
+    _required = false
+  }
+  boolean enableUsernameUniqForOrgPref {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "CommunitiesSettings"
+}

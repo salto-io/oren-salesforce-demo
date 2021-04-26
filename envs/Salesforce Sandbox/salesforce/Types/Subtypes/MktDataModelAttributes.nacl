@@ -1,0 +1,51 @@
+type salesforce.MktDataModelAttributes {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string creationType {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Bridge",
+        "Custom",
+        "Derived",
+        "Standard",
+        "System",
+      ]
+    }
+  }
+  string dataModelTaxonomy {
+    _required = false
+  }
+  boolean isEnabled {
+    _required = false
+  }
+  boolean isSegmentable {
+    _required = false
+  }
+  string objectCategory {
+    _required = false
+  }
+  string referenceEntityGroup {
+    _required = false
+  }
+  string referenceEntityName {
+    _required = false
+  }
+  string referenceEntitySubjectArea {
+    _required = false
+  }
+  metadataType = "MktDataModelAttributes"
+}

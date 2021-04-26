@@ -1,0 +1,57 @@
+settings salesforce.IndustriesSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean allowMultipleProducersToWorkOnSamePolicy {
+    _required = false
+  }
+  boolean enableAccessToMasterListOfCoverageTypes {
+    _required = false
+  }
+  boolean enableBlockResourceAvailabilityOrgPref {
+    _required = false
+  }
+  boolean enableEventManagementOrgPref {
+    _required = false
+  }
+  boolean enableFSCInsuranceReport {
+    _required = false
+  }
+  boolean enableManyToManyRelationships {
+    _required = false
+  }
+  boolean enableMortgageRlaTotalsOrgPref {
+    _required = false
+  }
+  boolean enableMultiResourceOrgPref {
+    _required = false
+  }
+  boolean enableOverbookingOrgPref {
+    _required = false
+  }
+  boolean enableReferralScoring {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "IndustriesSettings"
+}

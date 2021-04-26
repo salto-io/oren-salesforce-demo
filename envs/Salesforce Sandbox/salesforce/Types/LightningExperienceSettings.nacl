@@ -1,0 +1,117 @@
+settings salesforce.LightningExperienceSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string activeThemeName {
+    _required = false
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableAccessCheckCrucPref {
+    _required = false
+  }
+  boolean enableApiUserLtngOutAccessPref {
+    _required = false
+  }
+  boolean enableAuraCDNPref {
+    _required = false
+  }
+  boolean enableAuraDepAccessChksCRUCPref {
+    _required = false
+  }
+  boolean enableFeedbackInMobile {
+    _required = false
+  }
+  boolean enableGoogleSheetsForSfdcEnabled {
+    _required = false
+  }
+  boolean enableIE11DeprecationMsgHidden {
+    _required = false
+  }
+  boolean enableIE11LEXCrucPref {
+    _required = false
+  }
+  boolean enableInAppTooltips {
+    _required = false
+  }
+  boolean enableLEXOnIpadEnabled {
+    _required = false
+  }
+  boolean enableLexEndUsersNoSwitching {
+    _required = false
+  }
+  boolean enableNavPersonalizationOptOut {
+    _required = false
+  }
+  boolean enableRemoveThemeBrandBanner {
+    _required = false
+  }
+  boolean enableS1BannerPref {
+    _required = false
+  }
+  boolean enableS1BrowserEnabled {
+    _required = false
+  }
+  boolean enableSkypeChatEnabled {
+    _required = false
+  }
+  boolean enableS1DesktopEnabled {
+    _required = false
+  }
+  boolean enableS1UiLoggingEnabled {
+    _required = false
+  }
+  boolean enableSparkAllUsers {
+    _required = false
+  }
+  boolean enableSparkConversationEnabled {
+    _required = false
+  }
+  boolean enableTryLightningOptOut {
+    _required = false
+  }
+  boolean enableUseS1AlohaDesktop {
+    _required = false
+  }
+  boolean enableUsersAreLightningOnly {
+    _required = false
+  }
+  boolean enableWebExEnabled {
+    _required = false
+  }
+  boolean enableWebexAllUsers {
+    _required = false
+  }
+  boolean isLEXExtensionComponentCustomizationOff {
+    _required = false
+  }
+  boolean isLEXExtensionDarkModeOff {
+    _required = false
+  }
+  boolean isLEXExtensionLinkGrabberOff {
+    _required = false
+  }
+  boolean isLEXExtensionOff {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "LightningExperienceSettings"
+}

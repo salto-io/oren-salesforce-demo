@@ -1,0 +1,48 @@
+type salesforce.DelegateGroup {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string label {
+    _required = false
+  }
+  boolean loginAccess {
+    _required = false
+  }
+  "List<string>" customObjects {
+    _required = false
+  }
+  "List<string>" groups {
+    _required = false
+  }
+  "List<string>" permissionSets {
+    _required = false
+  }
+  "List<string>" profiles {
+    _required = false
+  }
+  "List<string>" roles {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "delegateGroup"
+  dirName = "delegateGroups"
+  metadataType = "DelegateGroup"
+}

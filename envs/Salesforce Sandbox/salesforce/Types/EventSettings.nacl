@@ -1,0 +1,51 @@
+settings salesforce.EventSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableDeleteMonitoringData {
+    _required = false
+  }
+  boolean enableDynamicStreamingChannel {
+    _required = false
+  }
+  boolean enableEventLogWaveIntegration {
+    _required = false
+  }
+  boolean enableLoginForensics {
+    _required = false
+  }
+  boolean enableStreamingApi {
+    _required = false
+  }
+  boolean enableTerminateOldestSession {
+    _required = false
+  }
+  boolean enableTransactionSecurityPolicies {
+    _required = false
+  }
+  boolean enableApexLimitEvents {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "EventSettings"
+}

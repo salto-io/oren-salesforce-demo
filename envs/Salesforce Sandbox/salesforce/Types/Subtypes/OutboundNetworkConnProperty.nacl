@@ -1,0 +1,33 @@
+type salesforce.OutboundNetworkConnProperty {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string propertyName {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AwsVpcEndpointId",
+        "AwsVpcEndpointServiceName",
+        "LinkId",
+        "ProxyUrl",
+        "Region",
+      ]
+    }
+  }
+  string propertyValue {
+    _required = false
+  }
+  metadataType = "OutboundNetworkConnProperty"
+}

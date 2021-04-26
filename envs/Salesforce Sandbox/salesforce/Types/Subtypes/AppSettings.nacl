@@ -1,0 +1,23 @@
+type salesforce.AppSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string connectedAppName {
+    _required = false
+  }
+  boolean enabled {
+    _required = false
+  }
+  metadataType = "AppSettings"
+}

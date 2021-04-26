@@ -1,0 +1,35 @@
+type salesforce.SingleSignOnSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  boolean enableCaseInsensitiveFederationID {
+    _required = false
+  }
+  boolean enableForceDelegatedCallout {
+    _required = false
+  }
+  boolean enableMultipleSamlConfigs {
+    _required = false
+  }
+  boolean enableSamlJitProvisioning {
+    _required = false
+  }
+  boolean enableSamlLogin {
+    _required = false
+  }
+  boolean isLoginWithSalesforceCredentialsDisabled {
+    _required = false
+  }
+  metadataType = "SingleSignOnSettings"
+}

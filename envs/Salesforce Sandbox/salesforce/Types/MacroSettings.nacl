@@ -1,0 +1,33 @@
+settings salesforce.MacroSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  boolean enableAdvancedSearch {
+    _required = false
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean macrosInFolders {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "MacroSettings"
+}

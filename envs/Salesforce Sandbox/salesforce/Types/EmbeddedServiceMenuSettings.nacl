@@ -1,0 +1,54 @@
+type salesforce.EmbeddedServiceMenuSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string branding {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.BrandingSet,
+    ]
+  }
+  salesforce.EmbeddedServiceCustomLabel embeddedServiceCustomLabels {
+    _required = false
+  }
+  salesforce.EmbeddedServiceCustomization embeddedServiceCustomizations {
+    _required = false
+  }
+  salesforce.EmbeddedServiceMenuItem embeddedServiceMenuItems {
+    _required = false
+  }
+  boolean isEnabled {
+    _required = false
+  }
+  string masterLabel {
+    _required = false
+  }
+  string site {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.CustomSite,
+    ]
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "EmbeddedServiceMenuSettings"
+  dirName = "EmbeddedServiceMenuSettings"
+  metadataType = "EmbeddedServiceMenuSettings"
+}

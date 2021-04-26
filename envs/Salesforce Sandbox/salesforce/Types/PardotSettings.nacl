@@ -1,0 +1,42 @@
+settings salesforce.PardotSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableB2bmaAppEnabled {
+    _required = false
+  }
+  boolean enableEngagementHistoryDashboards {
+    _required = false
+  }
+  boolean enablePardotAppV1Enabled {
+    _required = false
+  }
+  boolean enablePardotEnabled {
+    _required = false
+  }
+  boolean enableProspectActivityDataset {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "PardotSettings"
+}

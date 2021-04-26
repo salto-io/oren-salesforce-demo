@@ -1,0 +1,47 @@
+type salesforce.FlowCondition {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  "List<salesforce.FlowMetadataValue>" processMetadataValues {
+    _required = false
+  }
+  string leftValueReference {
+    _required = false
+  }
+  salesforce.FlowElementReferenceOrValue rightValue {
+    _required = false
+  }
+  string operator {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Contains",
+        "EndsWith",
+        "EqualTo",
+        "GreaterThan",
+        "GreaterThanOrEqualTo",
+        "IsNull",
+        "LessThan",
+        "LessThanOrEqualTo",
+        "NotEqualTo",
+        "StartsWith",
+        "WasSelected",
+        "WasSet",
+        "WasVisited",
+      ]
+    }
+  }
+  metadataType = "FlowCondition"
+}

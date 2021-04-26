@@ -1,0 +1,26 @@
+type salesforce.ConnectedAppSessionPolicy {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string policyAction {
+    _required = false
+  }
+  string sessionLevel {
+    _required = false
+  }
+  number sessionTimeout {
+    _required = false
+  }
+  metadataType = "ConnectedAppSessionPolicy"
+}

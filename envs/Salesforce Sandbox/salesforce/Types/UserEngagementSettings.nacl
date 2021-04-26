@@ -1,0 +1,105 @@
+settings salesforce.UserEngagementSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean canGovCloudUseAdoptionApps {
+    _required = false
+  }
+  boolean doesScheduledSwitcherRunDaily {
+    _required = false
+  }
+  boolean enableCustomHelpGlobalSection {
+    _required = false
+  }
+  boolean enableHelpMenuShowFeedback {
+    _required = false
+  }
+  boolean enableHelpMenuShowHelp {
+    _required = false
+  }
+  boolean enableHelpMenuShowNewUser {
+    _required = false
+  }
+  boolean enableHelpMenuShowSearch {
+    _required = false
+  }
+  boolean enableHelpMenuShowSfdcContent {
+    _required = false
+  }
+  boolean enableHelpMenuShowShortcut {
+    _required = false
+  }
+  boolean enableHelpMenuShowSupport {
+    _required = false
+  }
+  boolean enableHelpMenuShowTrailhead {
+    _required = false
+  }
+  boolean enableIBILOptOutDashboards {
+    _required = false
+  }
+  boolean enableIBILOptOutEvents {
+    _required = false
+  }
+  boolean enableIBILOptOutReports {
+    _required = false
+  }
+  boolean enableIBILOptOutTasks {
+    _required = false
+  }
+  boolean enableLexToClassicFeedbackEnable {
+    _required = false
+  }
+  boolean enableOrchestrationInSandbox {
+    _required = false
+  }
+  boolean enableOrgUserAssistEnabled {
+    _required = false
+  }
+  boolean enableScheduledSwitcher {
+    _required = false
+  }
+  boolean enableSfdcProductFeedbackSurvey {
+    _required = false
+  }
+  boolean enableShowSalesforceUserAssist {
+    _required = false
+  }
+  boolean isCrucNotificationDisabled {
+    _required = false
+  }
+  boolean isLEXWelcomeMatDisabled {
+    _required = false
+  }
+  boolean isMeetTheAssistantDisabledInClassic {
+    _required = false
+  }
+  boolean isMeetTheAssistantDisabledInLightning {
+    _required = false
+  }
+  boolean optimizerAppEnabled {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "UserEngagementSettings"
+}

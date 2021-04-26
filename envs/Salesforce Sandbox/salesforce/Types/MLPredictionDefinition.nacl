@@ -1,0 +1,82 @@
+type salesforce.MLPredictionDefinition {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string aiApplicationDeveloperName {
+    _required = false
+  }
+  string description {
+    _required = false
+  }
+  string developerName {
+    _required = false
+  }
+  salesforce.MLFilter negativeExpression {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.MLFilter,
+    ]
+  }
+  salesforce.MLFilter positiveExpression {
+    _required = false
+    foreignKeyDomain = [
+      salesforce.MLFilter,
+    ]
+  }
+  string predictionField {
+    _required = false
+  }
+  string pushbackField {
+    _required = false
+  }
+  string status {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Disabled",
+        "Draft",
+        "Enabled",
+      ]
+    }
+  }
+  string type {
+    _required = false
+    _restriction = {
+      enforce_value = false
+      values = [
+        "BinaryClassification",
+        "DeepLearningIntentClassification",
+        "DeepLearningNameEntityRecognition",
+        "GlobalDeepLearningIntentClassification",
+        "GlobalDeepLearningNameEntityRecognition",
+        "LanguageDetection",
+        "MulticlassClassification",
+        "Regression",
+        "ScoringSpecificOutcome",
+      ]
+    }
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "mlPrediction"
+  dirName = "mlPredictions"
+  metadataType = "MLPredictionDefinition"
+}

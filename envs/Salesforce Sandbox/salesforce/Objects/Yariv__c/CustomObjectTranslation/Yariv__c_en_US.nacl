@@ -1,0 +1,174 @@
+salesforce.CustomObjectTranslation Yariv__c_en_US@uubu {
+  fullName = "Yariv__c-en_US"
+  caseValues = [
+    {
+      plural = false
+      value = "Yariv"
+    },
+    {
+      plural = true
+      value = "Yarivs"
+    },
+  ]
+  fields = [
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Picklist_Yariv__c
+      picklistValues = [
+        {
+          masterLabel = "do"
+          translation = ""
+        },
+        {
+          masterLabel = "fa"
+          translation = ""
+        },
+        {
+          masterLabel = "la"
+          translation = ""
+        },
+        {
+          masterLabel = "mi"
+          translation = ""
+        },
+        {
+          masterLabel = "re"
+          translation = ""
+        },
+        {
+          masterLabel = "so"
+          translation = ""
+        },
+      ]
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Auto__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Checkbox__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Currency__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Date__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Datetime__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Email__c
+    },
+    {
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Formula__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Geolocation__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Multipick__c
+      picklistValues = [
+        {
+          masterLabel = "do"
+          translation = ""
+        },
+        {
+          masterLabel = "fa"
+          translation = ""
+        },
+        {
+          masterLabel = "la"
+          translation = ""
+        },
+        {
+          masterLabel = "mi"
+          translation = ""
+        },
+        {
+          masterLabel = "re"
+          translation = ""
+        },
+        {
+          masterLabel = "si"
+          translation = ""
+        },
+        {
+          masterLabel = "sol"
+          translation = ""
+        },
+      ]
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Number__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Percent__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Phone__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Text_Area_Long__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Text_Area_Rich__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Text_Area__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Text_Encvrypted__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Text__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_Time__c
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Yariv__c.field.Yariv_URL__c
+    },
+  ]
+  startsWith = "Consonant"
+  _parent = [
+    salesforce.Yariv__c,
+  ]
+}

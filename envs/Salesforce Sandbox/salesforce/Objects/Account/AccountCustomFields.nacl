@@ -1,0 +1,180 @@
+type salesforce.Account {
+  salesforce.Lookup Yariv_ref__c {
+    apiName = "Account.Yariv_ref__c"
+    label = "Yariv ref"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      salesforce.Yariv__c,
+    ]
+    inlineHelpText = "help bla bla"
+    createable = true
+    updateable = true
+    relationshipName = "Accounts"
+    queryable = true
+    description = "desc bla bla"
+  }
+  salesforce.Picklist Tier__c {
+    apiName = "Account.Tier__c"
+    label = "Tier"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Small Business"
+        default = false
+        label = "Small Business"
+      },
+      {
+        fullName = "Enterprise"
+        default = false
+        label = "Enterprise"
+      },
+      {
+        fullName = "Key Accounts"
+        default = false
+        label = "Key Accounts 1235"
+      },
+      {
+        fullName = "Medium Business"
+        default = false
+        isActive = false
+        label = "Medium Business"
+      },
+      {
+        fullName = "NewTierOnlyInEnv2"
+        default = false
+        isActive = false
+        label = "Test new tier345asdfasdfads"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    description = "Account Tiering for Enterprise, Mid Market, Small business etc."
+    sorted = false
+  }
+  salesforce.Picklist Active__c {
+    apiName = "Account.Active__c"
+    label = "Active"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Active"
+        default = false
+        label = "Active"
+      },
+      {
+        fullName = "Churned"
+        default = false
+        isActive = false
+        label = "Churned"
+      },
+      {
+        fullName = "INACTIVE"
+        default = false
+        isActive = false
+        label = "INACTIVE"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    description = "Whether this account is currently active or not."
+    sorted = false
+  }
+  salesforce.Url Domain__c {
+    apiName = "Account.Domain__c"
+    label = "Domain"
+    _required = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.FormulaNumber Power_of_1__c {
+    apiName = "Account.Power_of_1__c"
+    label = "Accounts"
+    _required = false
+    precision = 18
+    scale = 0
+    formula = "1"
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+  salesforce.Url Secondary_Domain__c {
+    apiName = "Account.Secondary_Domain__c"
+    label = "Secondary Domain"
+    _required = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text Salto_test__c {
+    apiName = "Account.Salto_test__c"
+    label = "Salto test NEW"
+    _required = false
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 255
+    queryable = true
+    externalId = false
+  }
+  salesforce.Picklist NewTier__c {
+    apiName = "Account.NewTier__c"
+    label = "NewTier"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Small Business"
+        default = false
+        label = "Small Business"
+      },
+      {
+        fullName = "Enterprise"
+        default = false
+        label = "Enterprise"
+      },
+      {
+        fullName = "Key Accounts"
+        default = false
+        label = "Key Accounts"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    sorted = false
+  }
+  salesforce.Number NumericalField__c {
+    apiName = "Account.NumericalField__c"
+    label = "NumericalField"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    externalId = false
+  }
+  salesforce.Number NumericField2__c {
+    apiName = "Account.NumericField2__c"
+    label = "NumericField2"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    externalId = false
+  }
+}

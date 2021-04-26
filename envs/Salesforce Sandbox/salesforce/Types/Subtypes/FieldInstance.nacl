@@ -1,0 +1,26 @@
+type salesforce.FieldInstance {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  salesforce.FieldInstanceProperty fieldInstanceProperties {
+    _required = false
+  }
+  string fieldItem {
+    _required = false
+  }
+  salesforce.UiFormulaRule visibilityRule {
+    _required = false
+  }
+  metadataType = "FieldInstance"
+}

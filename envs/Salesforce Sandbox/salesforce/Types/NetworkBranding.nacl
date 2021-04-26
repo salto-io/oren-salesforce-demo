@@ -1,0 +1,91 @@
+type salesforce.NetworkBranding {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  string content {
+    _required = false
+  }
+  string loginBackgroundImageUrl {
+    _required = false
+  }
+  string loginFooterText {
+    _required = false
+  }
+  string loginLogo {
+    _required = false
+  }
+  string loginLogoName {
+    _required = false
+  }
+  string loginPrimaryColor {
+    _required = false
+  }
+  string loginQuaternaryColor {
+    _required = false
+  }
+  string loginRightFrameUrl {
+    _required = false
+  }
+  string network {
+    _required = false
+  }
+  string pageFooter {
+    _required = false
+  }
+  string pageHeader {
+    _required = false
+  }
+  string primaryColor {
+    _required = false
+  }
+  string primaryComplementColor {
+    _required = false
+  }
+  string quaternaryColor {
+    _required = false
+  }
+  string quaternaryComplementColor {
+    _required = false
+  }
+  string secondaryColor {
+    _required = false
+  }
+  string staticLogoImageUrl {
+    _required = false
+  }
+  string tertiaryColor {
+    _required = false
+  }
+  string tertiaryComplementColor {
+    _required = false
+  }
+  string zeronaryColor {
+    _required = false
+  }
+  string zeronaryComplementColor {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  hasMetaFile = true
+  suffix = "networkBranding"
+  dirName = "networkBranding"
+  metadataType = "NetworkBranding"
+}

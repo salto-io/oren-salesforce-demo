@@ -1,0 +1,30 @@
+type salesforce.NotificationTypeConfig {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  "List<salesforce.NotificationTypeSettings>" notificationTypeSettings {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "config"
+  dirName = "notificationTypeConfig"
+  metadataType = "NotificationTypeConfig"
+}

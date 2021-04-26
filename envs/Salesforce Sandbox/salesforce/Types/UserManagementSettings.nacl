@@ -1,0 +1,45 @@
+settings salesforce.UserManagementSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableContactlessExternalIdentityUsers {
+    _required = false
+  }
+  boolean enableEnhancedPermsetMgmt {
+    _required = false
+  }
+  boolean enableEnhancedProfileMgmt {
+    _required = false
+  }
+  boolean enableNewProfileUI {
+    _required = false
+  }
+  boolean enableUserSelfDeactivate {
+    _required = false
+  }
+  boolean enableScrambleUserData {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "UserManagementSettings"
+}

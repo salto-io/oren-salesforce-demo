@@ -1,0 +1,51 @@
+settings salesforce.EACSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+    _required = false
+  }
+  boolean enableActivityCapture {
+    _required = false
+  }
+  boolean enableActivityMetrics {
+    _required = false
+  }
+  boolean enableActivitySyncEngine {
+    _required = false
+  }
+  boolean enableEACForEveryonePref {
+    _required = false
+  }
+  boolean enableInboxActivitySharing {
+    _required = false
+  }
+  boolean enableInsightsInTimeline {
+    _required = false
+  }
+  boolean enableInsightsInTimelineEacStd {
+    _required = false
+  }
+  boolean provisionProductivityFeatures {
+    _required = false
+  }
+  string internalId {
+    _required = false
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "settings"
+  dirName = "settings"
+  metadataType = "EACSettings"
+}
